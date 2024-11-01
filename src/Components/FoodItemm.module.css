@@ -1,0 +1,77 @@
+.foodItem{
+    padding: 20px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(3, 3, 3, 0.3);
+}
+
+img{
+    width: 300px;
+    margin-bottom: 10px;
+}
+h3{
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(160, 104, 0);
+    color: white;
+}
+button:hover{
+    background-color: orange;
+}
+.style{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    
+}
+
+.Conatiner{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .style{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        margin-top: 40px;
+        margin-left: 50px;
+        margin-bottom: 40px;
+    }
+    .foodItem{
+        padding: 20px;
+        width: 250px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(3, 3, 3, 0.1);
+    }
+    
+    img{
+        width: 200px;
+        margin-bottom: 10px;
+    }
+    h3{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .style{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        margin-top: 40px;
+        margin-left: 100px;
+        margin-bottom: 40px;
+    }
+}

@@ -1,0 +1,40 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(3, 3, 3, 0.3);
+    border-radius: 10px;
+}
+
+.instructions{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    width: 500px;
+}
+.instructions p{
+    line-height: 1.5;
+}
+.wrapper img{
+    border-radius: 10px;
+    width: 500px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.ingredient{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+.ingredient p{
+    line-height: 1.5;
+    font-size: 14px;
+}
